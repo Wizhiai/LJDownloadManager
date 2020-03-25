@@ -14,8 +14,6 @@
 		617AB435242B055700959EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617AB434242B055700959EEE /* Assets.xcassets */; };
 		617AB438242B055700959EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617AB436242B055700959EEE /* LaunchScreen.storyboard */; };
 		617AB43B242B055700959EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB43A242B055700959EEE /* main.m */; };
-		617AB445242B055700959EEE /* LJDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB444242B055700959EEE /* LJDownloadManagerTests.m */; };
-		617AB450242B055700959EEE /* LJDownloadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB44F242B055700959EEE /* LJDownloadManagerUITests.m */; };
 		617AB461242B057100959EEE /* LJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB45D242B057100959EEE /* LJDownloadManager.m */; };
 		617AB462242B057100959EEE /* LJDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB45F242B057100959EEE /* LJDownloadModel.m */; };
 /* End PBXBuildFile section */
@@ -51,11 +49,7 @@
 		617AB439242B055700959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617AB43A242B055700959EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		617AB440242B055700959EEE /* LJDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		617AB444242B055700959EEE /* LJDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerTests.m; sourceTree = "<group>"; };
-		617AB446242B055700959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617AB44B242B055700959EEE /* LJDownloadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJDownloadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		617AB44F242B055700959EEE /* LJDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerUITests.m; sourceTree = "<group>"; };
-		617AB451242B055700959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617AB45D242B057100959EEE /* LJDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManager.m; sourceTree = "<group>"; };
 		617AB45E242B057100959EEE /* LJDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadModel.h; sourceTree = "<group>"; };
 		617AB45F242B057100959EEE /* LJDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadModel.m; sourceTree = "<group>"; };
@@ -91,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				617AB427242B055200959EEE /* LJDownloadManager */,
-				617AB443242B055700959EEE /* LJDownloadManagerTests */,
-				617AB44E242B055700959EEE /* LJDownloadManagerUITests */,
 				617AB426242B055200959EEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,24 +119,6 @@
 				617AB43A242B055700959EEE /* main.m */,
 			);
 			path = LJDownloadManager;
-			sourceTree = "<group>";
-		};
-		617AB443242B055700959EEE /* LJDownloadManagerTests */ = {
-			isa = PBXGroup;
-			children = (
-				617AB444242B055700959EEE /* LJDownloadManagerTests.m */,
-				617AB446242B055700959EEE /* Info.plist */,
-			);
-			path = LJDownloadManagerTests;
-			sourceTree = "<group>";
-		};
-		617AB44E242B055700959EEE /* LJDownloadManagerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				617AB44F242B055700959EEE /* LJDownloadManagerUITests.m */,
-				617AB451242B055700959EEE /* Info.plist */,
-			);
-			path = LJDownloadManagerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				617AB445242B055700959EEE /* LJDownloadManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				617AB450242B055700959EEE /* LJDownloadManagerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
