@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		617AB42A242B055200959EEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB429242B055200959EEE /* AppDelegate.m */; };
+		617AB42D242B055200959EEE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB42C242B055200959EEE /* SceneDelegate.m */; };
+		617AB430242B055200959EEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB42F242B055200959EEE /* ViewController.m */; };
+		617AB433242B055200959EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617AB431242B055200959EEE /* Main.storyboard */; };
+		617AB435242B055700959EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617AB434242B055700959EEE /* Assets.xcassets */; };
+		617AB438242B055700959EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617AB436242B055700959EEE /* LaunchScreen.storyboard */; };
+		617AB43B242B055700959EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB43A242B055700959EEE /* main.m */; };
+		617AB445242B055700959EEE /* LJDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB444242B055700959EEE /* LJDownloadManagerTests.m */; };
+		617AB450242B055700959EEE /* LJDownloadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB44F242B055700959EEE /* LJDownloadManagerUITests.m */; };
+		617AB461242B057100959EEE /* LJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB45D242B057100959EEE /* LJDownloadManager.m */; };
+		617AB462242B057100959EEE /* LJDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB45F242B057100959EEE /* LJDownloadModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		617AB441242B055700959EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617AB41D242B055100959EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617AB424242B055200959EEE;
+			remoteInfo = LJDownloadManager;
+		};
+		617AB44C242B055700959EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617AB41D242B055100959EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617AB424242B055200959EEE;
+			remoteInfo = LJDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		617AB425242B055200959EEE /* LJDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		617AB428242B055200959EEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		617AB429242B055200959EEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		617AB42B242B055200959EEE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		617AB42C242B055200959EEE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		617AB42E242B055200959EEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		617AB42F242B055200959EEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		617AB432242B055200959EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		617AB434242B055700959EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		617AB437242B055700959EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		617AB439242B055700959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617AB43A242B055700959EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		617AB440242B055700959EEE /* LJDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		617AB444242B055700959EEE /* LJDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerTests.m; sourceTree = "<group>"; };
+		617AB446242B055700959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617AB44B242B055700959EEE /* LJDownloadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJDownloadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		617AB44F242B055700959EEE /* LJDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerUITests.m; sourceTree = "<group>"; };
+		617AB451242B055700959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617AB45D242B057100959EEE /* LJDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManager.m; sourceTree = "<group>"; };
+		617AB45E242B057100959EEE /* LJDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadModel.h; sourceTree = "<group>"; };
+		617AB45F242B057100959EEE /* LJDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadModel.m; sourceTree = "<group>"; };
+		617AB460242B057100959EEE /* LJDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617AB422242B055200959EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB43D242B055700959EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB448242B055700959EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		617AB41C242B055100959EEE = {
+			isa = PBXGroup;
+			children = (
+				617AB427242B055200959EEE /* LJDownloadManager */,
+				617AB443242B055700959EEE /* LJDownloadManagerTests */,
+				617AB44E242B055700959EEE /* LJDownloadManagerUITests */,
+				617AB426242B055200959EEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		617AB426242B055200959EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617AB425242B055200959EEE /* LJDownloadManager.app */,
+				617AB440242B055700959EEE /* LJDownloadManagerTests.xctest */,
+				617AB44B242B055700959EEE /* LJDownloadManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		617AB427242B055200959EEE /* LJDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				617AB460242B057100959EEE /* LJDownloadManager.h */,
+				617AB45D242B057100959EEE /* LJDownloadManager.m */,
+				617AB45E242B057100959EEE /* LJDownloadModel.h */,
+				617AB45F242B057100959EEE /* LJDownloadModel.m */,
+				617AB428242B055200959EEE /* AppDelegate.h */,
+				617AB429242B055200959EEE /* AppDelegate.m */,
+				617AB42B242B055200959EEE /* SceneDelegate.h */,
+				617AB42C242B055200959EEE /* SceneDelegate.m */,
+				617AB42E242B055200959EEE /* ViewController.h */,
+				617AB42F242B055200959EEE /* ViewController.m */,
+				617AB431242B055200959EEE /* Main.storyboard */,
+				617AB434242B055700959EEE /* Assets.xcassets */,
+				617AB436242B055700959EEE /* LaunchScreen.storyboard */,
+				617AB439242B055700959EEE /* Info.plist */,
+				617AB43A242B055700959EEE /* main.m */,
+			);
+			path = LJDownloadManager;
+			sourceTree = "<group>";
+		};
+		617AB443242B055700959EEE /* LJDownloadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				617AB444242B055700959EEE /* LJDownloadManagerTests.m */,
+				617AB446242B055700959EEE /* Info.plist */,
+			);
+			path = LJDownloadManagerTests;
+			sourceTree = "<group>";
+		};
+		617AB44E242B055700959EEE /* LJDownloadManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				617AB44F242B055700959EEE /* LJDownloadManagerUITests.m */,
+				617AB451242B055700959EEE /* Info.plist */,
+			);
+			path = LJDownloadManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		617AB424242B055200959EEE /* LJDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617AB454242B055700959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManager" */;
+			buildPhases = (
+				617AB421242B055200959EEE /* Sources */,
+				617AB422242B055200959EEE /* Frameworks */,
+				617AB423242B055200959EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJDownloadManager;
+			productName = LJDownloadManager;
+			productReference = 617AB425242B055200959EEE /* LJDownloadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		617AB43F242B055700959EEE /* LJDownloadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617AB457242B055700959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerTests" */;
+			buildPhases = (
+				617AB43C242B055700959EEE /* Sources */,
+				617AB43D242B055700959EEE /* Frameworks */,
+				617AB43E242B055700959EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				617AB442242B055700959EEE /* PBXTargetDependency */,
+			);
+			name = LJDownloadManagerTests;
+			productName = LJDownloadManagerTests;
+			productReference = 617AB440242B055700959EEE /* LJDownloadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		617AB44A242B055700959EEE /* LJDownloadManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617AB45A242B055700959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerUITests" */;
+			buildPhases = (
+				617AB447242B055700959EEE /* Sources */,
+				617AB448242B055700959EEE /* Frameworks */,
+				617AB449242B055700959EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				617AB44D242B055700959EEE /* PBXTargetDependency */,
+			);
+			name = LJDownloadManagerUITests;
+			productName = LJDownloadManagerUITests;
+			productReference = 617AB44B242B055700959EEE /* LJDownloadManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617AB41D242B055100959EEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = lijiehu;
+				TargetAttributes = {
+					617AB424242B055200959EEE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					617AB43F242B055700959EEE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 617AB424242B055200959EEE;
+					};
+					617AB44A242B055700959EEE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 617AB424242B055200959EEE;
+					};
+				};
+			};
+			buildConfigurationList = 617AB420242B055100959EEE /* Build configuration list for PBXProject "LJDownloadManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 617AB41C242B055100959EEE;
+			productRefGroup = 617AB426242B055200959EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617AB424242B055200959EEE /* LJDownloadManager */,
+				617AB43F242B055700959EEE /* LJDownloadManagerTests */,
+				617AB44A242B055700959EEE /* LJDownloadManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		617AB423242B055200959EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617AB438242B055700959EEE /* LaunchScreen.storyboard in Resources */,
+				617AB435242B055700959EEE /* Assets.xcassets in Resources */,
+				617AB433242B055200959EEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB43E242B055700959EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB449242B055700959EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617AB421242B055200959EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617AB430242B055200959EEE /* ViewController.m in Sources */,
+				617AB42A242B055200959EEE /* AppDelegate.m in Sources */,
+				617AB43B242B055700959EEE /* main.m in Sources */,
+				617AB462242B057100959EEE /* LJDownloadModel.m in Sources */,
+				617AB42D242B055200959EEE /* SceneDelegate.m in Sources */,
+				617AB461242B057100959EEE /* LJDownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB43C242B055700959EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617AB445242B055700959EEE /* LJDownloadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB447242B055700959EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617AB450242B055700959EEE /* LJDownloadManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		617AB442242B055700959EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 617AB424242B055200959EEE /* LJDownloadManager */;
+			targetProxy = 617AB441242B055700959EEE /* PBXContainerItemProxy */;
+		};
+		617AB44D242B055700959EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 617AB424242B055200959EEE /* LJDownloadManager */;
+			targetProxy = 617AB44C242B055700959EEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		617AB431242B055200959EEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617AB432242B055200959EEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		617AB436242B055700959EEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617AB437242B055700959EEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		617AB452242B055700959EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		617AB453242B055700959EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617AB455242B055700959EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		617AB456242B055700959EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		617AB458242B055700959EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJDownloadManager.app/LJDownloadManager";
+			};
+			name = Debug;
+		};
+		617AB459242B055700959EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJDownloadManager.app/LJDownloadManager";
+			};
+			name = Release;
+		};
+		617AB45B242B055700959EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LJDownloadManager;
+			};
+			name = Debug;
+		};
+		617AB45C242B055700959EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LJDownloadManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		617AB420242B055100959EEE /* Build configuration list for PBXProject "LJDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617AB452242B055700959EEE /* Debug */,
+				617AB453242B055700959EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617AB454242B055700959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617AB455242B055700959EEE /* Debug */,
+				617AB456242B055700959EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617AB457242B055700959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617AB458242B055700959EEE /* Debug */,
+				617AB459242B055700959EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617AB45A242B055700959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617AB45B242B055700959EEE /* Debug */,
+				617AB45C242B055700959EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 617AB41D242B055100959EEE /* Project object */;
+}
