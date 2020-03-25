@@ -31,8 +31,6 @@
 		617AB47E242B244B00959EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		617AB480242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617AB481242B244B00959EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		617AB48D242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		617AB498242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617AB4AA242B250A00959EEE /* LJDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadManager.h; sourceTree = "<group>"; };
 		617AB4AB242B250A00959EEE /* LJDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadModel.m; sourceTree = "<group>"; };
 		617AB4AC242B250B00959EEE /* LJDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadModel.h; sourceTree = "<group>"; };
@@ -54,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				617AB46E242B244800959EEE /* LJDownloadManager */,
-				617AB48A242B244B00959EEE /* LJDownloadManagerTests */,
-				617AB495242B244B00959EEE /* LJDownloadManagerUITests */,
 				617AB46D242B244800959EEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,22 +84,6 @@
 				617AB481242B244B00959EEE /* main.m */,
 			);
 			path = LJDownloadManager;
-			sourceTree = "<group>";
-		};
-		617AB48A242B244B00959EEE /* LJDownloadManagerTests */ = {
-			isa = PBXGroup;
-			children = (
-				617AB48D242B244B00959EEE /* Info.plist */,
-			);
-			path = LJDownloadManagerTests;
-			sourceTree = "<group>";
-		};
-		617AB495242B244B00959EEE /* LJDownloadManagerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				617AB498242B244B00959EEE /* Info.plist */,
-			);
-			path = LJDownloadManagerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
