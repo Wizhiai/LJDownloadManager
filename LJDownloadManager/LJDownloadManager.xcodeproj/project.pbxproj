@@ -14,28 +14,9 @@
 		617AB47C242B244B00959EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617AB47B242B244B00959EEE /* Assets.xcassets */; };
 		617AB47F242B244B00959EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617AB47D242B244B00959EEE /* LaunchScreen.storyboard */; };
 		617AB482242B244B00959EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB481242B244B00959EEE /* main.m */; };
-		617AB48C242B244B00959EEE /* LJDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB48B242B244B00959EEE /* LJDownloadManagerTests.m */; };
-		617AB497242B244B00959EEE /* LJDownloadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB496242B244B00959EEE /* LJDownloadManagerUITests.m */; };
 		617AB4AE242B250B00959EEE /* LJDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB4AB242B250A00959EEE /* LJDownloadModel.m */; };
 		617AB4AF242B250B00959EEE /* LJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB4AD242B250B00959EEE /* LJDownloadManager.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		617AB488242B244B00959EEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 617AB464242B244800959EEE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 617AB46B242B244800959EEE;
-			remoteInfo = LJDownloadManager;
-		};
-		617AB493242B244B00959EEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 617AB464242B244800959EEE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 617AB46B242B244800959EEE;
-			remoteInfo = LJDownloadManager;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		617AB46C242B244800959EEE /* LJDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,10 +31,8 @@
 		617AB47E242B244B00959EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		617AB480242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617AB481242B244B00959EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		617AB487242B244B00959EEE /* LJDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		617AB48B242B244B00959EEE /* LJDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerTests.m; sourceTree = "<group>"; };
 		617AB48D242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		617AB492242B244B00959EEE /* LJDownloadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJDownloadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		617AB496242B244B00959EEE /* LJDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerUITests.m; sourceTree = "<group>"; };
 		617AB498242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617AB4AA242B250A00959EEE /* LJDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadManager.h; sourceTree = "<group>"; };
@@ -64,20 +43,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		617AB469242B244800959EEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		617AB484242B244B00959EEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		617AB48F242B244B00959EEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				617AB46C242B244800959EEE /* LJDownloadManager.app */,
-				617AB487242B244B00959EEE /* LJDownloadManagerTests.xctest */,
-				617AB492242B244B00959EEE /* LJDownloadManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,42 +130,6 @@
 			productReference = 617AB46C242B244800959EEE /* LJDownloadManager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		617AB486242B244B00959EEE /* LJDownloadManagerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 617AB49E242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerTests" */;
-			buildPhases = (
-				617AB483242B244B00959EEE /* Sources */,
-				617AB484242B244B00959EEE /* Frameworks */,
-				617AB485242B244B00959EEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				617AB489242B244B00959EEE /* PBXTargetDependency */,
-			);
-			name = LJDownloadManagerTests;
-			productName = LJDownloadManagerTests;
-			productReference = 617AB487242B244B00959EEE /* LJDownloadManagerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		617AB491242B244B00959EEE /* LJDownloadManagerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 617AB4A1242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerUITests" */;
-			buildPhases = (
-				617AB48E242B244B00959EEE /* Sources */,
-				617AB48F242B244B00959EEE /* Frameworks */,
-				617AB490242B244B00959EEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				617AB494242B244B00959EEE /* PBXTargetDependency */,
-			);
-			name = LJDownloadManagerUITests;
-			productName = LJDownloadManagerUITests;
-			productReference = 617AB492242B244B00959EEE /* LJDownloadManagerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,14 +141,6 @@
 				TargetAttributes = {
 					617AB46B242B244800959EEE = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					617AB486242B244B00959EEE = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 617AB46B242B244800959EEE;
-					};
-					617AB491242B244B00959EEE = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 617AB46B242B244800959EEE;
 					};
 				};
 			};
@@ -239,8 +158,6 @@
 			projectRoot = "";
 			targets = (
 				617AB46B242B244800959EEE /* LJDownloadManager */,
-				617AB486242B244B00959EEE /* LJDownloadManagerTests */,
-				617AB491242B244B00959EEE /* LJDownloadManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,20 +170,6 @@
 				617AB47F242B244B00959EEE /* LaunchScreen.storyboard in Resources */,
 				617AB47C242B244B00959EEE /* Assets.xcassets in Resources */,
 				617AB47A242B244800959EEE /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		617AB485242B244B00959EEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		617AB490242B244B00959EEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,36 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		617AB483242B244B00959EEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				617AB48C242B244B00959EEE /* LJDownloadManagerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		617AB48E242B244B00959EEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				617AB497242B244B00959EEE /* LJDownloadManagerUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		617AB489242B244B00959EEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 617AB46B242B244800959EEE /* LJDownloadManager */;
-			targetProxy = 617AB488242B244B00959EEE /* PBXContainerItemProxy */;
-		};
-		617AB494242B244B00959EEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 617AB46B242B244800959EEE /* LJDownloadManager */;
-			targetProxy = 617AB493242B244B00959EEE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		617AB478242B244800959EEE /* Main.storyboard */ = {
@@ -483,86 +357,6 @@
 			};
 			name = Release;
 		};
-		617AB49F242B244B00959EEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = LJDownloadManagerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJDownloadManager.app/LJDownloadManager";
-			};
-			name = Debug;
-		};
-		617AB4A0242B244B00959EEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = LJDownloadManagerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJDownloadManager.app/LJDownloadManager";
-			};
-			name = Release;
-		};
-		617AB4A2242B244B00959EEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks ";
-				INFOPLIST_FILE = LJDownloadManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LJDownloadManager;
-			};
-			name = Debug;
-		};
-		617AB4A3242B244B00959EEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks ";
-				INFOPLIST_FILE = LJDownloadManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LJDownloadManager;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,24 +374,6 @@
 			buildConfigurations = (
 				617AB49C242B244B00959EEE /* Debug */,
 				617AB49D242B244B00959EEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		617AB49E242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				617AB49F242B244B00959EEE /* Debug */,
-				617AB4A0242B244B00959EEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		617AB4A1242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				617AB4A2242B244B00959EEE /* Debug */,
-				617AB4A3242B244B00959EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
