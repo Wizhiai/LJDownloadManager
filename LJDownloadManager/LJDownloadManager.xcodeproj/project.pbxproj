@@ -31,9 +31,7 @@
 		617AB47E242B244B00959EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		617AB480242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617AB481242B244B00959EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		617AB48B242B244B00959EEE /* LJDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerTests.m; sourceTree = "<group>"; };
 		617AB48D242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		617AB496242B244B00959EEE /* LJDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerUITests.m; sourceTree = "<group>"; };
 		617AB498242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617AB4AA242B250A00959EEE /* LJDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadManager.h; sourceTree = "<group>"; };
 		617AB4AB242B250A00959EEE /* LJDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadModel.m; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 		617AB48A242B244B00959EEE /* LJDownloadManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				617AB48B242B244B00959EEE /* LJDownloadManagerTests.m */,
 				617AB48D242B244B00959EEE /* Info.plist */,
 			);
 			path = LJDownloadManagerTests;
@@ -104,7 +101,6 @@
 		617AB495242B244B00959EEE /* LJDownloadManagerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				617AB496242B244B00959EEE /* LJDownloadManagerUITests.m */,
 				617AB498242B244B00959EEE /* Info.plist */,
 			);
 			path = LJDownloadManagerUITests;
