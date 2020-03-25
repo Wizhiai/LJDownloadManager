@@ -241,7 +241,6 @@ stringByAppendingPathComponent:NSStringFromClass([self class])]
       __weak typeof(self) weakSelf=self;
     dispatch_async(dispatch_get_main_queue(), ^{
         
-             
         if ([self isDownloadCompletedOfURL:downloadModel.url]) {
             if (downloadModel.state) {
                 downloadModel.state(LJDownloadStateCompleted);
@@ -250,7 +249,7 @@ stringByAppendingPathComponent:NSStringFromClass([self class])]
             if (downloadModel.completion) {
                 downloadModel.completion(YES, [self fileFullPathOfURL:downloadModel.url], error);
             }
-           
+         
             UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
           __block  UILabel * label = [[UILabel alloc]initWithFrame:CGRectMake(0, -30, rootViewController.view.frame.size.width, 30 )];
             label.text = @"下载任务完成！";
@@ -287,6 +286,7 @@ stringByAppendingPathComponent:NSStringFromClass([self class])]
            
             if(  weakSelf.isShowTip && weakSelf.downloadingModels.count == 0 ){
 
+                                       
            
                                             }
             

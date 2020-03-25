@@ -7,38 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		617AB42A242B055200959EEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB429242B055200959EEE /* AppDelegate.m */; };
-		617AB42D242B055200959EEE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB42C242B055200959EEE /* SceneDelegate.m */; };
-		617AB430242B055200959EEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB42F242B055200959EEE /* ViewController.m */; };
-		617AB433242B055200959EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617AB431242B055200959EEE /* Main.storyboard */; };
-		617AB435242B055700959EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617AB434242B055700959EEE /* Assets.xcassets */; };
-		617AB438242B055700959EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617AB436242B055700959EEE /* LaunchScreen.storyboard */; };
-		617AB43B242B055700959EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB43A242B055700959EEE /* main.m */; };
-		617AB461242B057100959EEE /* LJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB45D242B057100959EEE /* LJDownloadManager.m */; };
-		617AB462242B057100959EEE /* LJDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB45F242B057100959EEE /* LJDownloadModel.m */; };
+		617AB471242B244800959EEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB470242B244800959EEE /* AppDelegate.m */; };
+		617AB474242B244800959EEE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB473242B244800959EEE /* SceneDelegate.m */; };
+		617AB477242B244800959EEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB476242B244800959EEE /* ViewController.m */; };
+		617AB47A242B244800959EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617AB478242B244800959EEE /* Main.storyboard */; };
+		617AB47C242B244B00959EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617AB47B242B244B00959EEE /* Assets.xcassets */; };
+		617AB47F242B244B00959EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617AB47D242B244B00959EEE /* LaunchScreen.storyboard */; };
+		617AB482242B244B00959EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB481242B244B00959EEE /* main.m */; };
+		617AB48C242B244B00959EEE /* LJDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB48B242B244B00959EEE /* LJDownloadManagerTests.m */; };
+		617AB497242B244B00959EEE /* LJDownloadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB496242B244B00959EEE /* LJDownloadManagerUITests.m */; };
+		617AB4AE242B250B00959EEE /* LJDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB4AB242B250A00959EEE /* LJDownloadModel.m */; };
+		617AB4AF242B250B00959EEE /* LJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 617AB4AD242B250B00959EEE /* LJDownloadManager.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		617AB488242B244B00959EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617AB464242B244800959EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617AB46B242B244800959EEE;
+			remoteInfo = LJDownloadManager;
+		};
+		617AB493242B244B00959EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617AB464242B244800959EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617AB46B242B244800959EEE;
+			remoteInfo = LJDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		617AB425242B055200959EEE /* LJDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		617AB428242B055200959EEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		617AB429242B055200959EEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		617AB42B242B055200959EEE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		617AB42C242B055200959EEE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		617AB42E242B055200959EEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		617AB42F242B055200959EEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		617AB432242B055200959EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		617AB434242B055700959EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		617AB437242B055700959EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		617AB439242B055700959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		617AB43A242B055700959EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		617AB45D242B057100959EEE /* LJDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManager.m; sourceTree = "<group>"; };
-		617AB45E242B057100959EEE /* LJDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadModel.h; sourceTree = "<group>"; };
-		617AB45F242B057100959EEE /* LJDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadModel.m; sourceTree = "<group>"; };
-		617AB460242B057100959EEE /* LJDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadManager.h; sourceTree = "<group>"; };
+		617AB46C242B244800959EEE /* LJDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		617AB46F242B244800959EEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		617AB470242B244800959EEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		617AB472242B244800959EEE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		617AB473242B244800959EEE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		617AB475242B244800959EEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		617AB476242B244800959EEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		617AB479242B244800959EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		617AB47B242B244B00959EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		617AB47E242B244B00959EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		617AB480242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617AB481242B244B00959EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		617AB487242B244B00959EEE /* LJDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		617AB48B242B244B00959EEE /* LJDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerTests.m; sourceTree = "<group>"; };
+		617AB48D242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617AB492242B244B00959EEE /* LJDownloadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJDownloadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		617AB496242B244B00959EEE /* LJDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManagerUITests.m; sourceTree = "<group>"; };
+		617AB498242B244B00959EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617AB4AA242B250A00959EEE /* LJDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadManager.h; sourceTree = "<group>"; };
+		617AB4AB242B250A00959EEE /* LJDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadModel.m; sourceTree = "<group>"; };
+		617AB4AC242B250B00959EEE /* LJDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDownloadModel.h; sourceTree = "<group>"; };
+		617AB4AD242B250B00959EEE /* LJDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDownloadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		617AB422242B055200959EEE /* Frameworks */ = {
+		617AB469242B244800959EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB484242B244B00959EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB48F242B244B00959EEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,54 +87,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		617AB41C242B055100959EEE = {
+		617AB463242B244800959EEE = {
 			isa = PBXGroup;
 			children = (
-				617AB427242B055200959EEE /* LJDownloadManager */,
-				617AB426242B055200959EEE /* Products */,
+				617AB46E242B244800959EEE /* LJDownloadManager */,
+				617AB48A242B244B00959EEE /* LJDownloadManagerTests */,
+				617AB495242B244B00959EEE /* LJDownloadManagerUITests */,
+				617AB46D242B244800959EEE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		617AB426242B055200959EEE /* Products */ = {
+		617AB46D242B244800959EEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				617AB425242B055200959EEE /* LJDownloadManager.app */,
+				617AB46C242B244800959EEE /* LJDownloadManager.app */,
+				617AB487242B244B00959EEE /* LJDownloadManagerTests.xctest */,
+				617AB492242B244B00959EEE /* LJDownloadManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		617AB427242B055200959EEE /* LJDownloadManager */ = {
+		617AB46E242B244800959EEE /* LJDownloadManager */ = {
 			isa = PBXGroup;
 			children = (
-				617AB460242B057100959EEE /* LJDownloadManager.h */,
-				617AB45D242B057100959EEE /* LJDownloadManager.m */,
-				617AB45E242B057100959EEE /* LJDownloadModel.h */,
-				617AB45F242B057100959EEE /* LJDownloadModel.m */,
-				617AB428242B055200959EEE /* AppDelegate.h */,
-				617AB429242B055200959EEE /* AppDelegate.m */,
-				617AB42B242B055200959EEE /* SceneDelegate.h */,
-				617AB42C242B055200959EEE /* SceneDelegate.m */,
-				617AB42E242B055200959EEE /* ViewController.h */,
-				617AB42F242B055200959EEE /* ViewController.m */,
-				617AB431242B055200959EEE /* Main.storyboard */,
-				617AB434242B055700959EEE /* Assets.xcassets */,
-				617AB436242B055700959EEE /* LaunchScreen.storyboard */,
-				617AB439242B055700959EEE /* Info.plist */,
-				617AB43A242B055700959EEE /* main.m */,
+				617AB4AA242B250A00959EEE /* LJDownloadManager.h */,
+				617AB4AD242B250B00959EEE /* LJDownloadManager.m */,
+				617AB4AC242B250B00959EEE /* LJDownloadModel.h */,
+				617AB4AB242B250A00959EEE /* LJDownloadModel.m */,
+				617AB46F242B244800959EEE /* AppDelegate.h */,
+				617AB470242B244800959EEE /* AppDelegate.m */,
+				617AB472242B244800959EEE /* SceneDelegate.h */,
+				617AB473242B244800959EEE /* SceneDelegate.m */,
+				617AB475242B244800959EEE /* ViewController.h */,
+				617AB476242B244800959EEE /* ViewController.m */,
+				617AB478242B244800959EEE /* Main.storyboard */,
+				617AB47B242B244B00959EEE /* Assets.xcassets */,
+				617AB47D242B244B00959EEE /* LaunchScreen.storyboard */,
+				617AB480242B244B00959EEE /* Info.plist */,
+				617AB481242B244B00959EEE /* main.m */,
 			);
 			path = LJDownloadManager;
+			sourceTree = "<group>";
+		};
+		617AB48A242B244B00959EEE /* LJDownloadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				617AB48B242B244B00959EEE /* LJDownloadManagerTests.m */,
+				617AB48D242B244B00959EEE /* Info.plist */,
+			);
+			path = LJDownloadManagerTests;
+			sourceTree = "<group>";
+		};
+		617AB495242B244B00959EEE /* LJDownloadManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				617AB496242B244B00959EEE /* LJDownloadManagerUITests.m */,
+				617AB498242B244B00959EEE /* Info.plist */,
+			);
+			path = LJDownloadManagerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		617AB424242B055200959EEE /* LJDownloadManager */ = {
+		617AB46B242B244800959EEE /* LJDownloadManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 617AB454242B055700959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManager" */;
+			buildConfigurationList = 617AB49B242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManager" */;
 			buildPhases = (
-				617AB421242B055200959EEE /* Sources */,
-				617AB422242B055200959EEE /* Frameworks */,
-				617AB423242B055200959EEE /* Resources */,
+				617AB468242B244800959EEE /* Sources */,
+				617AB469242B244800959EEE /* Frameworks */,
+				617AB46A242B244800959EEE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -103,24 +164,68 @@
 			);
 			name = LJDownloadManager;
 			productName = LJDownloadManager;
-			productReference = 617AB425242B055200959EEE /* LJDownloadManager.app */;
+			productReference = 617AB46C242B244800959EEE /* LJDownloadManager.app */;
 			productType = "com.apple.product-type.application";
+		};
+		617AB486242B244B00959EEE /* LJDownloadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617AB49E242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerTests" */;
+			buildPhases = (
+				617AB483242B244B00959EEE /* Sources */,
+				617AB484242B244B00959EEE /* Frameworks */,
+				617AB485242B244B00959EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				617AB489242B244B00959EEE /* PBXTargetDependency */,
+			);
+			name = LJDownloadManagerTests;
+			productName = LJDownloadManagerTests;
+			productReference = 617AB487242B244B00959EEE /* LJDownloadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		617AB491242B244B00959EEE /* LJDownloadManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617AB4A1242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerUITests" */;
+			buildPhases = (
+				617AB48E242B244B00959EEE /* Sources */,
+				617AB48F242B244B00959EEE /* Frameworks */,
+				617AB490242B244B00959EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				617AB494242B244B00959EEE /* PBXTargetDependency */,
+			);
+			name = LJDownloadManagerUITests;
+			productName = LJDownloadManagerUITests;
+			productReference = 617AB492242B244B00959EEE /* LJDownloadManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		617AB41D242B055100959EEE /* Project object */ = {
+		617AB464242B244800959EEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = lijiehu;
 				TargetAttributes = {
-					617AB424242B055200959EEE = {
+					617AB46B242B244800959EEE = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					617AB486242B244B00959EEE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 617AB46B242B244800959EEE;
+					};
+					617AB491242B244B00959EEE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 617AB46B242B244800959EEE;
 					};
 				};
 			};
-			buildConfigurationList = 617AB420242B055100959EEE /* Build configuration list for PBXProject "LJDownloadManager" */;
+			buildConfigurationList = 617AB467242B244800959EEE /* Build configuration list for PBXProject "LJDownloadManager" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,58 +233,103 @@
 				en,
 				Base,
 			);
-			mainGroup = 617AB41C242B055100959EEE;
-			productRefGroup = 617AB426242B055200959EEE /* Products */;
+			mainGroup = 617AB463242B244800959EEE;
+			productRefGroup = 617AB46D242B244800959EEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				617AB424242B055200959EEE /* LJDownloadManager */,
+				617AB46B242B244800959EEE /* LJDownloadManager */,
+				617AB486242B244B00959EEE /* LJDownloadManagerTests */,
+				617AB491242B244B00959EEE /* LJDownloadManagerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		617AB423242B055200959EEE /* Resources */ = {
+		617AB46A242B244800959EEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				617AB438242B055700959EEE /* LaunchScreen.storyboard in Resources */,
-				617AB435242B055700959EEE /* Assets.xcassets in Resources */,
-				617AB433242B055200959EEE /* Main.storyboard in Resources */,
+				617AB47F242B244B00959EEE /* LaunchScreen.storyboard in Resources */,
+				617AB47C242B244B00959EEE /* Assets.xcassets in Resources */,
+				617AB47A242B244800959EEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB485242B244B00959EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB490242B244B00959EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		617AB421242B055200959EEE /* Sources */ = {
+		617AB468242B244800959EEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				617AB430242B055200959EEE /* ViewController.m in Sources */,
-				617AB42A242B055200959EEE /* AppDelegate.m in Sources */,
-				617AB43B242B055700959EEE /* main.m in Sources */,
-				617AB462242B057100959EEE /* LJDownloadModel.m in Sources */,
-				617AB42D242B055200959EEE /* SceneDelegate.m in Sources */,
-				617AB461242B057100959EEE /* LJDownloadManager.m in Sources */,
+				617AB4AE242B250B00959EEE /* LJDownloadModel.m in Sources */,
+				617AB4AF242B250B00959EEE /* LJDownloadManager.m in Sources */,
+				617AB477242B244800959EEE /* ViewController.m in Sources */,
+				617AB471242B244800959EEE /* AppDelegate.m in Sources */,
+				617AB482242B244B00959EEE /* main.m in Sources */,
+				617AB474242B244800959EEE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB483242B244B00959EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617AB48C242B244B00959EEE /* LJDownloadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617AB48E242B244B00959EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617AB497242B244B00959EEE /* LJDownloadManagerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		617AB489242B244B00959EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 617AB46B242B244800959EEE /* LJDownloadManager */;
+			targetProxy = 617AB488242B244B00959EEE /* PBXContainerItemProxy */;
+		};
+		617AB494242B244B00959EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 617AB46B242B244800959EEE /* LJDownloadManager */;
+			targetProxy = 617AB493242B244B00959EEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		617AB431242B055200959EEE /* Main.storyboard */ = {
+		617AB478242B244800959EEE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				617AB432242B055200959EEE /* Base */,
+				617AB479242B244800959EEE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		617AB436242B055700959EEE /* LaunchScreen.storyboard */ = {
+		617AB47D242B244B00959EEE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				617AB437242B055700959EEE /* Base */,
+				617AB47E242B244B00959EEE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -187,7 +337,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		617AB452242B055700959EEE /* Debug */ = {
+		617AB499242B244B00959EEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		617AB453242B055700959EEE /* Release */ = {
+		617AB49A242B244B00959EEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +447,7 @@
 			};
 			name = Release;
 		};
-		617AB455242B055700959EEE /* Debug */ = {
+		617AB49C242B244B00959EEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,13 +457,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		617AB456242B055700959EEE /* Release */ = {
+		617AB49D242B244B00959EEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,34 +474,125 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		617AB49F242B244B00959EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJDownloadManager.app/LJDownloadManager";
+			};
+			name = Debug;
+		};
+		617AB4A0242B244B00959EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJDownloadManager.app/LJDownloadManager";
+			};
+			name = Release;
+		};
+		617AB4A2242B244B00959EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LJDownloadManager;
+			};
+			name = Debug;
+		};
+		617AB4A3242B244B00959EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LJDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.LJDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LJDownloadManager;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		617AB420242B055100959EEE /* Build configuration list for PBXProject "LJDownloadManager" */ = {
+		617AB467242B244800959EEE /* Build configuration list for PBXProject "LJDownloadManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				617AB452242B055700959EEE /* Debug */,
-				617AB453242B055700959EEE /* Release */,
+				617AB499242B244B00959EEE /* Debug */,
+				617AB49A242B244B00959EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		617AB454242B055700959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManager" */ = {
+		617AB49B242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				617AB455242B055700959EEE /* Debug */,
-				617AB456242B055700959EEE /* Release */,
+				617AB49C242B244B00959EEE /* Debug */,
+				617AB49D242B244B00959EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617AB49E242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617AB49F242B244B00959EEE /* Debug */,
+				617AB4A0242B244B00959EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617AB4A1242B244B00959EEE /* Build configuration list for PBXNativeTarget "LJDownloadManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617AB4A2242B244B00959EEE /* Debug */,
+				617AB4A3242B244B00959EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 617AB41D242B055100959EEE /* Project object */;
+	rootObject = 617AB464242B244800959EEE /* Project object */;
 }
