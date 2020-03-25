@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Wizhiai/LJDownloadManager.git", :tag => "#{s.version}" }
   s.source_files  = "LJDownloadManager", "LJDownloadManager/**/*.{h,m}"
 
-  s.framework = "Foundation"
+ # s.framework = "Foundation"
  # s.dependency "AFNetworking", "~> 3.2.1"
 
 end
